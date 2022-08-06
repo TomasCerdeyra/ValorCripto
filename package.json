@@ -1,0 +1,17 @@
+{
+  "name": "cotizador-cripto",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss sass/estilo.scss css/estilo.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
